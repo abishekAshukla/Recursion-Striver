@@ -24,7 +24,7 @@ int sum1toNFunc(int n)
 
 int main()
 {
-    // sum1toN(1, 5);
-    cout<<sum1toNFunc(4);
+    sum1toN(1, 4);
+    // cout<<sum1toNFunc(5);
     return 0;
 }
