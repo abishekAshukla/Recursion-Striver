@@ -17,12 +17,12 @@ void printSub(int index, vector<int> &outPut, int input[], int size)
         return;
     }
 
-    // take or pick the particular index into the subsequence
+    // Recursion call 1
     outPut.push_back(input[index]);
     printSub(index + 1, outPut, input, size);
-    outPut.pop_back();
 
-    // not pick
+    // Recursion call 2
+    outPut.pop_back();
     printSub(index + 1, outPut, input, size);
 }
 

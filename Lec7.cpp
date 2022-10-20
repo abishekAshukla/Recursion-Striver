@@ -37,6 +37,6 @@ int main()
     int input[] = {3, 1, 2};
     int size = 3;
     vector<int> output;
-    printSub(0, output, input, size, 2);
+    printSub(0, output, input, size, 3);
     return 0;
 }
