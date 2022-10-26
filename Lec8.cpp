@@ -3,6 +3,7 @@ using namespace std;
 #include <vector>
 // print subsequences using recursion
 // leetcode: https://leetcode.com/problems/combination-sum/
+// leetcode: combination sum 1
 
 
 void printSub(int index, vector<int> &outPut, int input[], int size, int target)

@@ -34,9 +34,10 @@ void printSub(int index, vector<int> &outPut, int input[], int size, int k, int 
 
 int main()
 {
-    int input[] = {3, 1, 2};
-    int size = 3;
+    // int input[] = {10, 1, 2, 7, 6, 1, 5};
+    int input[] = {1,1,1,2,2};
+    int size = 5;
     vector<int> output;
-    printSub(0, output, input, size, 3);
+    printSub(0, output, input, size, 4);
     return 0;
 }
